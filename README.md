@@ -82,10 +82,10 @@ Untuk menjalankan aplikasi utama yang menggunakan model yang sudah dilatih untuk
 python water_quality/main.py
 ```
 ## 🧠 Metodologi Model
-### 1. Preprocessing: Menangani nilai yang hilang, menghapus baris yang tidak valid (seperti nilai '#NUM!' pada kolom ammonia dan is_safe).
+1. Preprocessing: Menangani nilai yang hilang, menghapus baris yang tidak valid (seperti nilai '#NUM!' pada kolom ammonia dan is_safe).
 
-### 2. Model: Menggunakan beberapa model tetapi model yang di pilih yaitu Decision Tree Classifier.
+2. Model: Menggunakan beberapa model tetapi model yang di pilih yaitu Decision Tree Classifier.
 
-### 3. Evaluasi: Model dievaluasi menggunakan metrik akurasi, presisi, dan recall untuk memastikan klasifikasi air aman/tidak aman dilakukan dengan benar.
+3. Evaluasi: Model dievaluasi menggunakan metrik akurasi, presisi, dan recall untuk memastikan klasifikasi air aman/tidak aman dilakukan dengan benar.
 
-### 4. Deployment: Model disimpan menggunakan joblib agar dapat dimuat kembali secara instan tanpa perlu pelatihan ulang.
+4. Deployment: Model disimpan menggunakan joblib agar dapat dimuat kembali secara instan tanpa perlu pelatihan ulang.
